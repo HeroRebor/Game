@@ -1,0 +1,26 @@
+print("Lets play Rock, Paper scissor (I'm sure that u will never win :)) ")
+N = input("Rock, Paper Or scissor? ")
+if N =='Rock':
+    print("-----------        ----------")
+    print("|          |       |         |")
+    print("|  Rock    |   VS  |   paper |")
+    print("|          |       |         |")
+    print("------------       -----------")
+    print("Paper covers rock, I win! :))")
+elif N =='Paper':
+    print("-----------        -------------")
+    print("|          |       |            |")
+    print("|  paper   |   VS  |  scissor   |")
+    print("|          |       |            |")
+    print("------------       ------------- ")
+    print("Scissors cuts paper! I win :)) :))")
+elif N == 'Scissor':
+    print("-----------        ----------")
+    print("|          |       |         |")
+    print("|  scissor |   VS  |  Rock   |")
+    print("|          |       |         |")
+    print("------------       -----------")
+    print("Rock Smashes Scissor, I win :)) :))")
+else:
+    print("Sorry, I don't understand that (try command Rock | Paper | Scissor ")
+input("Press enter to quit")
